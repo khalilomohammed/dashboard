@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    direction: none;
+    box-sizing: none;
+    border: 0px;
+    list-style: none;
+    appearance: none;
+}
+:root{
+    --clr-items:#7d8da1;
+    --clr-backround:#f6f6f9;
+    --clr-light:rgba(132,139,200,0.18);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.88rem;
+    background-color: var(--clr-light);
+}
+
+/* left side bar */
+h3{
+    text-align: center;
+}
+.logo{
+    color: rgb(255, 64, 0);
+    position: relative;
+    top: 50px;
+    left: 20px;
+    padding: 10px;
+    overflow: hidden;
+    width: 19%;
+    background-color:#fff;
+}
+.logo::before{
+    content: "K";
+    color: #000;
+}
+.containre{
+        width: 96%;
+        color: var(--clr-items);
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-color: var(--clr-light);
+    }
+.containre aside{
+    width: 20%;
+    height: 600px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    background-color: #fff;
+    
+}
+div[id="items"]{
+    padding: 12px 15px;
+    width: 305px;
+    display: flex;
+}
+div[id="items"]:hover{
+background-color: var(--clr-light);
+position: relative;
+right: 10px;
+cursor: pointer;
+}
+
+
+/* main bar */
+h1{
+    color: black;
+font-family: sans-serif;
+font-weight: 900;
+font-size: 60px;
+position: relative;
+left: 50px;
+}
+main{
+width: 60%;
+position: relative;
+bottom: 600px;
+left: 300px;
+height: 800px;
+}
+.date{
+padding: 10px;
+width: 150px;
+display: flex;
+justify-content: space-between;
+align-content: space-between;
+color:black;
+position: relative;
+left: 50px;
+}
+.flowchar{
+    position: relative;
+    gap: 20px;
+    width: 60%;
+    display: flex;
+    right: 125px;
+    height: 250px;
+    top: 100px;
+    border-radius:  10px 30px 10px 30px;
+    border: none;
+
+}
+.charart{
+    width: 450px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: var(--clr-backround);
+    border-radius: 5px;
+}
+.total{
+    font-size: 15px;
+}
+.dollar{
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+}
+.persnt{
+width: 80px;
+height: 80px;
+position: relative;
+bottom: 35px;
+align-items: center;
+display: flex;
+align-content: center;
+justify-content: center;
+left: 10px;
+font-size: 15px;
+border: 5px solid #7380ec;
+border-right-color: var(--clr-backround);
+border-radius: 50%;
+}
+.last{
+    position: relative;
+    bottom: 25px;
+    font-size: 15px;
+}
+.charart img{
+    background-color:orangered;
+    border-radius: 50%;
+}
+img[src="./img/double (1).png"]{
+    background-color: #41f1b6;
+}
+span[id="border-green"]{
+border: 5px solid #41f1b6;
+border-right-color: var(--clr-backround);
+border-radius: 50%;
+}
+img[src="./img/market.png"]{
+background-color: #ff0d00;
+}
+
+    /* right bar */
+    aside[class="rightbar"]{
+        width: 20%;
+        height: 800px;
+        position: absolute;
+        left: 1380px;
+        top: 40px;
+        background-color: var(--clr-light);
+    }
+    aside .profile{
+        display: flex;
+        align-content: space-between;
+        justify-content: space-around;
+
+ }
+ img[src="./img/myimg.jpg"]{
+border-radius:50%;
+}
+p[ class="admin"]{
+    font-size: 15px;
+    font-weight: bolder;
+}
+img[src="./img/light_mode_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"]{
+    background-color: rgba(4, 4, 168, 0.541);
+    padding:6px 18px;
+}
+h5{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 60px;
+}
+.notfiation{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    color: black;
+    background-color: var(--clr-backround);
+    display: grid;
+    border-radius: 5px;
+}
+h6{
+display: flex;
+font-size: 15px;
+margin-top: 20px;
+align-items: center;
+color: black;
+}
+h6 p{
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(119, 114, 114);
+}
+h6 img{
+border-radius: 50%;
+margin-right: 10px;
+}
+.sales-analytics p{
+    color: black;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.onlion{
+    background-color: var(--clr-backround);
+    width: 100%;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.onlion img{
+    background-color: orangered;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.onlion .onlion-order{
+color: black;
+font-weight: bolder;
+}
